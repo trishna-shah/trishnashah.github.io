@@ -213,7 +213,14 @@
             <div class="container">
                 <h2>Contact Me</h2>
                 <div class="contact-content">
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="contact-form" action="https://formsubmit.co/trishnas@gmail.com" method="POST">
+                        <!-- Spam Protection -->
+                        <input type="text" name="_honey" style="display: none">
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Success Page -->
+                        <input type="hidden" name="_next" value="https://trishnashah.github.io">
+                        
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
